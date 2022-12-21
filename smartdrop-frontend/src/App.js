@@ -49,7 +49,7 @@ function App() {
     const members = membersAddress.split(", ");
     const tx = await contract.doAirDrop(
       members,
-      ethers.utils.formatEther(Number(airdropAmount))
+      ethers.utils.parseEther(Number(airdropAmount))
     );
     await tx.wait();
     setTransactionHash(tx.hash);
