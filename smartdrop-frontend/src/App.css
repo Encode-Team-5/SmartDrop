@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+}
+
+.button {
+  margin: 8px 24px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.button:hover {
+  filter: brightness(60%);
+}
+
+input {
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid gray;
+}
+
+textarea {
+  border-radius: 4px;
+  border: 1px solid gray;
+}
+
+.tokenAddress {
+  color: lightblue;
+}
